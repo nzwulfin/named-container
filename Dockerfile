@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhel7/rhel
+FROM registry.access.redhat.com/rhel7:7.3
 ENV container docker
 RUN yum -y install bind && \
     yum clean all && \
